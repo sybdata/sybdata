@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
+  <title id="title">SybData terminal profile</title>
+  <desc id="description">Systems, networks, Docker, independent infrastructure, BPS Express, and 8.51 million Docker Hub pulls.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07110d"/>
+      <stop offset="1" stop-color="#0b1812"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="76%" cy="16%" r="62%">
+      <stop offset="0" stop-color="#227e4f" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#227e4f" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M 44 0 L 0 0 0 44" fill="none" stroke="#5effab" stroke-opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" rx="18" fill="url(#background)"/>
+  <rect width="1200" height="360" rx="18" fill="url(#glow)"/>
+  <rect width="1200" height="360" rx="18" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="358" rx="17" fill="none" stroke="#214233" stroke-width="2"/>
+
+  <path d="M 0 52 H 1200" stroke="#214233"/>
+  <circle cx="28" cy="26" r="5" fill="#5effab"/>
+  <circle cx="50" cy="26" r="5" fill="none" stroke="#5a7467"/>
+  <circle cx="72" cy="26" r="5" fill="none" stroke="#5a7467"/>
+  <text x="94" y="31" fill="#94ad9f" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="14">sybdata@github: ~</text>
+
+  <text x="58" y="128" fill="#5effab" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="48" font-weight="700">&gt;_</text>
+  <text x="146" y="128" fill="#e9f5ee" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="-2">sybdata</text>
+  <text x="60" y="170" fill="#94ad9f" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="18">systems · networks · Docker · independent infrastructure</text>
+
+  <text x="60" y="238" fill="#5effab" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="17">$</text>
+  <text x="82" y="238" fill="#e9f5ee" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="17" font-weight="700">status --current</text>
+  <circle cx="66" cy="277" r="5" fill="#5effab"/>
+  <circle cx="66" cy="277" r="10" fill="none" stroke="#5effab" stroke-opacity="0.18" stroke-width="5"/>
+  <text x="86" y="283" fill="#99ffc9" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="18">building BPS Express · Hamburg</text>
+
+  <rect x="850" y="91" width="292" height="205" rx="10" fill="#0b1812" stroke="#214233"/>
+  <text x="882" y="130" fill="#94ad9f" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="14">docker-hub / ace86a37</text>
+  <text x="882" y="205" fill="#99ffc9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="52" font-weight="750" letter-spacing="-2">8.51M+</text>
+  <text x="884" y="238" fill="#e9f5ee" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="16" font-weight="700">pulls</text>
+  <text x="884" y="270" fill="#94ad9f" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="13">historical image · 2018–2023</text>
+</svg>
